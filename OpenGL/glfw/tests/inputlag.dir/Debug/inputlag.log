@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/OpenGL/glfw/tests/CMakeLists.txt
+  inputlag.c
+  getopt.c
+  glad_gl.c
+  正在生成代码...
+  inputlag.vcxproj -> D:\OpenGL\glfw\tests\Debug\inputlag.exe
