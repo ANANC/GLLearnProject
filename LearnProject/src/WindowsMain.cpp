@@ -69,7 +69,7 @@ int main()
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		// do yourself
-		m_MyGL.Shader();
+		m_MyGL.Draw();
 
 		// glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
 		// -------------------------------------------------------------------------------

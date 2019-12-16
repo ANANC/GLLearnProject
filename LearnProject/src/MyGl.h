@@ -9,9 +9,11 @@ class MyGL
 {
 
 private:
-	int vertexShader;
-	int fragmentShader;
-	int shaderProgram;
+	Shader* shaderSource;
+
+	//int vertexShader;
+	//int fragmentShader;
+	//int shaderProgram;
 	unsigned int VBO, VAO, EBO;
 
 	float vertices[12] = {
@@ -27,8 +29,16 @@ private:
 	};
 
 public:
+
+	MyGL()
+	{
+		shaderSource = new Shader();
+		shaderSource->Create();
+	}
+
 	void Init();
-	void Shader();
+	void LinkShader();
+	void Draw();
 	void Clean();
 
 };
